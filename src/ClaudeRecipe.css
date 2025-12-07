@@ -1,0 +1,45 @@
+.recipeSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto; /* Adds 40px top/bottom margin and centers it horizontally */
+  color: #374151;
+  border-radius: 16px; /* Slightly more rounded */
+  background-color: rgba(255, 255, 255, 0.35); /* A bit more opaque */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.recipeSection > h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: navy;
+}
+
+.para {
+    font-size: 1.2rem;
+    margin-left:  20px;
+    color: #374151;
+}
+
+.Food {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #374151;
+}
+
+.ing {
+    font-size: 1.2rem;
+    margin-left:  20px;
+    color: #374151;
+}
+.ins {
+    font-size: 1.2rem;
+    margin-left:  20px;
+    color: #374151;
+}
